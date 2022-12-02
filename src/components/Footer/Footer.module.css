@@ -1,0 +1,33 @@
+.Footer {
+  background-color: var(--footer-bg);
+  padding: 15px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Left {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+.LeftIcon {
+  width: 50px;
+  height: 50px;
+}
+.CenterIcon {
+    width: 50px;
+ 
+    display: flex;
+    align-items: center;
+}
+.RightTitle {
+    margin-bottom: 5px;
+    color: var(--text-color);
+}
+.RightIcon {
+    width: 150px;
+    
+}
+.Address {
+    color: var(--text-color);
+}

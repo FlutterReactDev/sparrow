@@ -1,0 +1,55 @@
+.Section {
+  height: 100vh;
+  display: flex;
+  color: var(--text-color);
+}
+
+.Title {
+  font-size: 35px;
+  color: #029fe2;
+  text-align: right;
+  font-weight: bold;
+}
+.List {
+  margin-top: 40px;
+}
+.List li {
+  color: var(--green-color);
+  margin-bottom: 10px;
+}
+
+.Left {
+  width: 30%;
+  height: 100%;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+.LeftContent {
+  padding-left: 20px;
+  padding-top: 15px;
+  border-top: 8px solid var(--section-border-color);
+}
+.Right {
+  width: 70%;
+  height: 100%;
+}
+.RightContent {
+  height: 100%;
+    padding-top:100px ;
+    padding-left: 30px;
+  background: url(./Scema.png) center no-repeat;
+  background-size: 500px 400px;
+  position: relative;
+}
+
+.Triangle {
+  position: absolute;
+  width: 100px;
+  top: 15px;
+  right: 30px;
+}
+
+.TrackName,.TrackDistance {
+    font-weight: bold;
+}   
