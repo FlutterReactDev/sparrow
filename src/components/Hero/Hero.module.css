@@ -1,0 +1,81 @@
+.Hero {
+  height: calc(100vh - 70px);
+  background: url(./hero-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: #fefefe;
+}
+.Hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.6) 80%,
+    rgba(0, 0, 0, 0.3)
+  );
+}
+
+.HeroContent {
+  position: relative;
+  z-index: 1;
+}
+.Top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.Meteo {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  margin-top: 30px;
+}
+.MeteoIcon {
+  background: url("./Шкала_погоды.png") no-repeat;
+  background-size: contain;
+  font-size: 30px;
+  width: 130px;
+  height: 77px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  line-height: 20px;
+}
+.MeteoInfo {
+  display: flex;
+}
+.MeteoValues {
+  display: flex;
+  flex-direction: column;
+}
+.MeteoValue {
+  align-self: flex-end;
+  margin-left: 10px;
+}
+
+.Content {
+  margin-left: auto;
+  width: max-content;
+  margin-right: 105px;
+}
+.Text {
+  font-size: 45px;
+  margin-bottom: 80px;
+  font-weight: bold;
+}
+.Button {
+  background: transparent;
+  font-size: 25px;
+  color: #d7fd3d;
+  padding: 12px 18px;
+  border: 2px solid #d7fd3d;
+  cursor: pointer;
+  font-weight: bold;
+}

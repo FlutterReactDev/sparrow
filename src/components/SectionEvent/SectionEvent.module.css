@@ -1,0 +1,65 @@
+.Section {
+  background-color: var(--bg-color);
+  display: flex;
+  height: 100vh;
+  gap: 30px;
+}
+
+.Triangle {
+  position: absolute;
+  width: 150px;
+  bottom: 30px;
+  right: 0;
+}
+
+.Left {
+  width: 25%;
+  height: 100%;
+  padding-left: 15px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.Right {
+  width: 75%;
+  height: 100%;
+
+  padding-bottom: 40px;
+  padding-right: 40px;
+}
+.RightContent {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 4px solid var(--section-border-color);
+  position: relative;
+}
+.Content {
+  border-top: 8px solid var(--section-border-color);
+  padding-top: 15px;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  padding-left: 20px;
+  border-bottom: 8px solid var(--section-border-color);
+}
+.Title {
+  font-size: 35px;
+  color: #029fe2;
+  text-align: right;
+  font-weight: bold;
+}
+
+.LeftDate {
+  font-size: 20px;
+  color: var(--green-color);
+  margin-top: 15px;
+}
+
+.Events {
+ flex-grow: 1;
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+}

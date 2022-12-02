@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import { useContext } from "react";
+import { ThemeContext } from "./Theme";
+import cn from "classnames";
 
+
+import styles from "./App.module.css";
+
+
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import Main from "./components/Main/Main";
+
+import SectionEvent from "./components/SectionEvent/SectionEvent";
+import SectionCenter from "./components/SectionCenter/SectionCenter";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 function App() {
+  const { theme } = useContext(ThemeContext);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      className={cn({
+        [styles.DarkTheme]: theme === "dark-theme",
+        [styles.LightTheme]: theme === "light-theme",
+      })}
+    >
+      <Header />
+      <Hero />
+      <Main>
+        <SectionEvent />
+        <SectionCenter />
+      </Main>
     </div>
   );
 }

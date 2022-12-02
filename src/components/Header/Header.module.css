@@ -1,0 +1,77 @@
+.Header {
+  background-color: var(--bg-color);
+  height: 70px;
+}
+.Inner {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.Left,
+.Right {
+  display: flex;
+}
+.Logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.Logo > div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.LogoElement {
+  width: 250px;
+  height: auto;
+  background: var(--header-icon-bg);
+  padding: 0 20px;
+  margin-right: 10px;
+}
+
+.LogoCamera {
+  width: 60px;
+  height: auto;
+  background: var(--header-icon-bg);
+  height: 100%;
+  padding: 0 15px;
+}
+.Nav {
+  margin-left: 30px;
+}
+.Menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+}
+
+
+.Menu li a {
+  color: var(--text-color);
+}
+
+.Channel {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.ChannelName {
+  color: var(--text-color);
+  margin-right: 10px;
+}
+.ChannelIcon {
+  width: 25px;
+  height: auto;
+}
+
+.Contact {
+  background-color: #029fe2;
+  color: var(--bg-color);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}

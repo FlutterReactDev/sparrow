@@ -1,0 +1,29 @@
+.SwitchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Switch {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  border-radius: 20px;
+  width: 75px;
+  height: 33px;
+  font-size: 12px;
+  align-items: center;
+  padding: 0 5px;
+  gap: 10px;
+  cursor: pointer;
+  text-align: right;
+}
+.SwitchTitle {
+  color: #fefefe;
+  margin-bottom: 15px;
+}
+.Icon {
+  width: 25px;
+  height: 25px;
+  background-color: #029fe2;
+  border-radius: 50%;
+}

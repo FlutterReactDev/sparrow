@@ -1,0 +1,23 @@
+.DarkTheme {
+  --text-color: #fff;
+  --bg-color: #030302;
+  --header-icon-bg: #212121;
+  --section-border-color: #fefefe;
+
+  --green-color: #d7fd3d;
+
+  --calendar-cur-day-bg: transparent;
+  --calendar-cur-day-color: #029fe2;
+}
+
+.LightTheme {
+  --text-color: #212121;
+  --bg-color: #e5e6e6;
+  --header-icon-bg: #c5c6c6;
+  --section-border-color: #8e8586;
+
+  --green-color: #a4c71a;
+
+  --calendar-cur-day-bg: #029fe2;
+  --calendar-cur-day-color: #fefefe;
+}

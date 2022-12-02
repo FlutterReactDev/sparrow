@@ -1,0 +1,69 @@
+.Section {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  height: 100vh;
+  gap: 30px;
+}
+
+.Title {
+  font-size: 35px;
+  color: #029fe2;
+  text-align: right;
+  font-weight: bold;
+}
+
+.Left {
+  width: 25%;
+  height: 100%;
+  padding-left: 15px;
+  padding-bottom: 60px;
+}
+
+.LeftContent {
+  padding-left: 20px;
+  padding-top: 20px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.Date {
+  color: var(--green-color);
+  margin-top: 70px;
+}
+
+.Subtitle {
+  font-size: 20px;
+}
+
+.Text {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.Right {
+  width: 75%;
+  height: 100%;
+
+  padding-bottom: 40px;
+  padding-right: 40px;
+}
+
+.RightContent {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 4px solid var(--section-border-color);
+   position: relative; 
+
+}
+.Triangle {
+    position: absolute;
+  width: 150px;
+  bottom: 10px;
+  left: 0;
+}

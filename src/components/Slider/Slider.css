@@ -1,0 +1,17 @@
+.slider {
+  width: 250px;
+}
+
+.arrow.slick-disabled{
+  display: none;
+}
+.arrow::before {
+  display: none;
+}
+.slider .slick-next {
+  right: -50px;
+}
+
+.slider .slick-prev {
+  left: -50px;
+}
