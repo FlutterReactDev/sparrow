@@ -1,16 +1,24 @@
 .Section {
   background-color: var(--bg-color);
   color: var(--text-color);
-  display: flex;
   height: 100vh;
-  gap: 30px;
+  
 }
-
+.SectionContainer {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.SliderItem {
+  height: 100%;
+  width: 100%;
+}
 .Title {
   font-size: 35px;
   color: #029fe2;
   text-align: right;
   font-weight: bold;
+  width: 300px;
 }
 
 .Left {
@@ -58,11 +66,10 @@
   align-items: center;
   justify-content: center;
   border-bottom: 4px solid var(--section-border-color);
-   position: relative; 
-
+  position: relative;
 }
 .Triangle {
-    position: absolute;
+  position: absolute;
   width: 150px;
   bottom: 10px;
   left: 0;

@@ -79,3 +79,51 @@
   cursor: pointer;
   font-weight: bold;
 }
+
+@media screen and (max-width: 768px) {
+  .Meteo {
+    margin: 0;
+  }
+
+  .Content {
+    width: auto;
+    margin: 0;
+    padding: 0 20px;
+  }
+
+  .Text {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .MeteoIcon {
+    font-size: 20px;
+    width: 100px;
+    height: 60px;
+  }
+
+  .Meteo {
+    gap: 15px;
+  }
+
+  @media screen and (max-width: 360px) {
+    .Top {
+      padding: 20px 10px;
+    }
+
+    .MeteoIcon {
+      font-size: 18px;
+      width: 80px;
+      height: 50px;
+    }
+    .Meteo {
+      gap: 10px;
+    }
+
+    .Text {
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
+  }
+}

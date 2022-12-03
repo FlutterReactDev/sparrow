@@ -13,6 +13,7 @@ import SectionCenter from "./components/SectionCenter/SectionCenter";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 import SectionInfrastructure from "./components/SectionInfrastructure/SectionInfrastructure";
 import SectionContact from "./components/SectionContact/SectionContact";
 import SectionVK from "./components/SectionVK/SectionVK";

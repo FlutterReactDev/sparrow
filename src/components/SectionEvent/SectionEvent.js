@@ -6,12 +6,12 @@ function SectionEvent() {
     <section className={styles.Section}>
       <div className={styles.Left}>
         <div className={styles.Content}>
-          <h1 className={styles.Title}>СОБЫТИЯ</h1>
-          <div className={styles.LeftDate}>3 ноября 2022</div>
-          <div className={styles.Events}>
-            Сегодня: <br />
-            нет событий
+          <div className={styles.ContentTop}>
+            <h1 className={styles.Title}>СОБЫТИЯ</h1>
+            <div className={styles.LeftDate}>3 ноября 2022</div>
           </div>
+
+          <div className={styles.Events}>Сегодня: нет событий</div>
         </div>
       </div>
       <div className={styles.Right}>

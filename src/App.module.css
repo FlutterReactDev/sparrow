@@ -2,6 +2,7 @@
   --text-color: #fff;
   --bg-color: #030302;
   --header-icon-bg: #212121;
+  --header-mobi-color: #212121;
   --section-border-color: #fefefe;
 
   --green-color: #d7fd3d;
@@ -15,12 +16,16 @@
   --textarea-color: #313130;
 
   --footer-bg: #3c3c3c;
+
+  --mobile-menu-color: #212121;
+  --mobile-menu-bg: #fefefe;
 }
 
 .LightTheme {
   --text-color: #212121;
   --bg-color: #e5e6e6;
   --header-icon-bg: #c5c6c6;
+  --header-mobi-color: #e5e6e6;
   --section-border-color: #8e8586;
 
   --green-color: #a4c71a;
@@ -34,4 +39,7 @@
   --textarea-color: #fff;
 
   --footer-bg: #dadbdb;
+
+  --mobile-menu-color: #fefefe;
+  --mobile-menu-bg: #212121;
 }

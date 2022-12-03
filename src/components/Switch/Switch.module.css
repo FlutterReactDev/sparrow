@@ -27,3 +27,19 @@
   background-color: #029fe2;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 360px) {
+  .SwitchTitle {
+    display: none;
+  }
+
+  .State {
+    font-size: 10px;
+  }
+
+  .Switch {
+    gap: 5px;
+    width: 66px;
+    height: 33px;
+  }
+}

@@ -38,7 +38,6 @@ function SliderCarousel({ children }) {
     infinite: false,
     slidesToShow: 1,
     arrows: true,
-    fade: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
   };

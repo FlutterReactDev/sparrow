@@ -58,8 +58,45 @@
 }
 
 .Events {
- flex-grow: 1;
+  flex-grow: 1;
   display: flex;
   align-items: center;
   color: var(--text-color);
+}
+
+@media screen and (max-width: 991px) {
+  .Section {
+    display: block;
+    height: auto;
+  }
+
+  .Left {
+    width: 100%;
+    padding: 0;
+    padding: 20px 20px;
+  }
+  .Right {
+    width: 100%;
+    padding: 0;
+  }
+
+  .Content {
+    padding: 0;
+    border: none;
+    flex-direction: row;
+  }
+
+  .RightContent {
+    padding: 0;
+  }
+
+  .Title {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .Events {
+    align-items: flex-start;
+    justify-content: center;
+  }
 }
