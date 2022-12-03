@@ -6,9 +6,13 @@
   transform: translateX(-100%);
   transition: all 0.3s;
   position: fixed;
+  top: 70px;
+  left: 0;
+  right: 0;
+  bottom: 0;
   z-index: 9999;
   width: 100%;
-  height: calc(100vh);
+  overflow: hidden;
   pointer-events: none;
   background-color: var(--mobile-menu-bg);
 }
