@@ -59,7 +59,7 @@
 }
 .LikeIcon {
   width: 14px;
-  margin-right: 12px;   
+  margin-right: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,4 +96,26 @@
   grid-row-start: 5;
   grid-row-end: 9;
   position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .Title {
+    text-align: left;
+    width: 190px;
+    font-size: 28px;
+  }
+  .Triangle {
+    width: 80px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .Section {
+    padding: 30px 10px;
+  }
+  .Title {
+    font-size: 20px;
+  }
+  .Triangle {
+    width: 50px;
+  }
 }

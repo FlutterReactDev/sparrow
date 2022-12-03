@@ -103,3 +103,67 @@
   padding: 10px 20px;
   margin-top: 40px;
 }
+
+@media screen and (max-width: 991px) {
+  .Section {
+    display: block;
+  }
+  .Title {
+    text-align: left;
+  }
+  .Left {
+    width: 100%;
+  }
+
+  .Right {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+ 
+
+  .Left {
+    width: 100%;
+  }
+
+  .Right {
+    padding: 15px;
+  }
+
+  .FormTitle {
+    font-size: 35px;
+  }
+  .Title {
+    font-size: 35px;
+  }
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .LeftContent {
+    padding: 0 15px;
+  }
+  .AddressValue {
+    font-size: 16px;
+  }
+  .Title {
+    font-size: 28px;
+  }
+  .FormTitle {
+    font-size: 28px;
+  }
+  .Coords {
+    right: 25px;
+    bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .Coords {
+    width: 150px;
+    padding: 5px;
+  }
+}

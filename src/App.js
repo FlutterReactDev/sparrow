@@ -32,10 +32,10 @@ function App() {
       <Hero />
       <Main>
         <SectionEvent />
-        <SectionCenter />
+        {/* <SectionCenter /> */}
         {/* <SectionInfrastructure /> */}
-        {/* <SectionContact /> */}
-        {/* <SectionVK /> */}
+        <SectionContact />
+        <SectionVK />
         {/* <Footer /> */}
       </Main>
     </div>
