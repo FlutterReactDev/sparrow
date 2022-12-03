@@ -27,6 +27,22 @@
 }
 
 .slider .slick-prev {
-  left: 5px;
+  left: 320px;
   z-index: 60;
 } 
+
+@media screen and (max-width: 991px) {
+  .slider .slick-next  {
+    right: 25px;
+  }
+  .slider .slick-prev {
+    left: 35px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .slider .slick-prev {
+    left: 15px;
+  }
+}

@@ -16,20 +16,22 @@ function Footer() {
   return (
     <footer className={styles.Footer}>
       <div className={styles.Left}>
-        <div className={styles.LeftIcon}>
-          {theme === "dark-theme" ? (
-            <img src={phone} alt="phone" />
-          ) : (
-            <img src={phoneLight} alt="phone" />
-          )}
-        </div>
-        <div className={styles.LeftIcon}>
-          {theme === "dark-theme" ? (
-            <img src={vk} alt="phone" />
-          ) : (
-            <img src={vkLight} alt="phone" />
-          )}
-        </div>
+       
+          <div className={styles.LeftIcon}>
+            {theme === "dark-theme" ? (
+              <img src={phone} alt="phone" />
+            ) : (
+              <img src={phoneLight} alt="phone" />
+            )}
+          </div>
+          <div className={styles.LeftIcon}>
+            {theme === "dark-theme" ? (
+              <img src={vk} alt="phone" />
+            ) : (
+              <img src={vkLight} alt="phone" />
+            )}
+          </div>
+       
 
         <div className={styles.Address}>
           Красноярский край,

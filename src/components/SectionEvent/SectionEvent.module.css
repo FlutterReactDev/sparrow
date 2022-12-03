@@ -76,7 +76,7 @@
     content: "";
     position: absolute;
     top: 10px;
-    left: 0;
+    left: 15px;
     width: 50%;
     height: 4px;
     background-color: var(--section-border-color);
@@ -85,7 +85,7 @@
     content: "";
     position: absolute;
     bottom: 10px;
-    left: 0;
+    left: 15px;
     width: 50%;
     height: 4px;
     background-color: var(--section-border-color);

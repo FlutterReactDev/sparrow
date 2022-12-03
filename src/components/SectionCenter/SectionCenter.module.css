@@ -17,7 +17,8 @@
   color: #029fe2;
   text-align: right;
   font-weight: bold;
-  width: 300px;
+  padding-left: 15px;
+  width: 25%;
 }
 
 .Left {
@@ -43,7 +44,6 @@
 
 .Subtitle {
   font-size: 20px;
-  /* margin-bottom: 40px; */
 }
 
 .Text {
@@ -77,6 +77,10 @@
 }
 
 @media screen and (max-width: 991px) {
+  .Title {
+    text-align: left;
+    width: 50%;
+  }
   .Section {
     height: auto;
   }
@@ -85,11 +89,52 @@
   }
 
   .Left {
-    max-width: 250px;
     width: 100%;
+    padding-left: 115px;
   }
+
+  .LeftContent {
+    width: 75%;
+  }
+
+  
   .Right {
     width: 100%;
     display: none;
+  }
+
+  .Subtitle {
+    margin-bottom: 40px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .Title {
+    font-size: 28px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Title {
+    font-size: 20px;
+  }
+
+  .Left {
+    padding-left: 30px;
+  }
+
+  .LeftContent {
+    width: 86%;
+  }
+
+  .Subtitle {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  .Date {
+    margin-top: 0;
   }
 }

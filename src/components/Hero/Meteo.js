@@ -26,7 +26,6 @@ function Meteo() {
     });
   }, []);
 
-  console.log(data);
   return (
     <div className={styles.Meteo}>
       <div className={styles.MeteoIcon}>{data.air}&deg;C</div>

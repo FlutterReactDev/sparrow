@@ -36,8 +36,8 @@
 }
 .RightContent {
   height: 100%;
-    padding-top:100px ;
-    padding-left: 30px;
+  padding-top: 100px;
+  padding-left: 30px;
   background: url(./Scema.png) center no-repeat;
   background-size: 500px 400px;
   position: relative;
@@ -50,6 +50,60 @@
   right: 30px;
 }
 
-.TrackName,.TrackDistance {
-    font-weight: bold;
-}   
+.TrackName,
+.TrackDistance {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 991px) {
+  .Section {
+    height: auto;
+    display: block;
+  }
+
+  .Left {
+    width: 100%;
+  }
+
+  .Title {
+    text-align: left;
+    padding-top: 10px;
+    border-top:4px solid var(--section-border-color);
+    width: 50%;
+  }
+  .LeftContent {
+    border-top: none;
+    padding: 0;
+  }
+  .Right {
+    width: 100%;
+    height: 500px;
+  }
+
+  .RightContent {
+    padding-top: 0;
+    padding-left: 20px;
+    background-size: contain;
+  }
+
+  .Triangle {
+    top: 0;
+    right: 20px;
+    width: 80px;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .Title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Title {
+    font-size: 20px;
+
+  }
+}
