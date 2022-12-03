@@ -31,3 +31,15 @@
 .Address {
     color: var(--text-color);
 }
+
+@media screen and (max-width:768px) {
+  .Footer {
+    flex-wrap:wrap ;
+    gap: 15px;
+    padding: 10px 20px;
+    justify-content: center;
+  }
+  .Left {
+    justify-content: space-between;
+  }
+}
