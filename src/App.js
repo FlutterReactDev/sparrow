@@ -33,10 +33,10 @@ function App() {
       <Main>
         <SectionEvent />
         <SectionCenter />
-        <SectionInfrastructure />
-        <SectionContact />
-        <SectionVK />
-        <Footer />
+        {/* <SectionInfrastructure /> */}
+        {/* <SectionContact /> */}
+        {/* <SectionVK /> */}
+        {/* <Footer /> */}
       </Main>
     </div>
   );

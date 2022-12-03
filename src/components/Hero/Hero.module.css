@@ -96,6 +96,13 @@
   }
 }
 
+@media screen and (max-width: 680px) {
+  .Hero {
+    height: auto;
+    padding-bottom: 15px;
+  }
+}
+
 @media screen and (max-width: 479px) {
   .MeteoIcon {
     font-size: 20px;

@@ -68,12 +68,33 @@
   .Section {
     display: block;
     height: auto;
+    padding-bottom: 80px;
+    padding-right: 20px;
+    position: relative;
   }
-
+  .Section::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 50%;
+    height: 4px;
+    background-color: var(--section-border-color);
+  }
+  .Section::after {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 50%;
+    height: 4px;
+    background-color: var(--section-border-color);
+  }
   .Left {
     width: 100%;
     padding: 0;
-    padding: 20px 20px;
+    padding-left: 20px;
+    padding-top: 30px;
   }
   .Right {
     width: 100%;
@@ -88,6 +109,7 @@
 
   .RightContent {
     padding: 0;
+    border: none;
   }
 
   .Title {
@@ -98,5 +120,22 @@
   .Events {
     align-items: flex-start;
     justify-content: center;
+  }
+
+  .Triangle {
+    width: 50px;
+    bottom: -60px;
+    right: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .LeftDate {
+    font-size: 16px;
+  }
+  .Left {
+    padding-left: 10px;
+  }
+  .Section {
+    padding-right: 0;
   }
 }

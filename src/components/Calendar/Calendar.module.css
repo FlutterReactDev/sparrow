@@ -13,7 +13,6 @@
   position: relative;
 }
 
-
 .LeftArrow,
 .RightArrow {
   position: absolute;
@@ -24,7 +23,7 @@
 }
 
 .LeftArrow {
-  left:-80px ;
+  left: -80px;
 }
 
 .RightArrow {
@@ -66,4 +65,68 @@
 .SelectedDay {
   color: #434242;
   background-color: var(--green-color);
+}
+
+.MobileCalendar {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .MobileCalendar {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 15px;
+  }
+
+  .Calendar > .Inner {
+    display: none;
+  }
+  .LeftArrow,
+  .RightArrow {
+    position: static;
+    width: 15px;
+    margin-top: 35px;
+  }
+
+  .Date {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Inner {
+    gap: 10px;
+  }
+  .LeftArrow,
+  .RightArrow {
+    width: 15px;
+    position: static;
+    z-index: 100;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .Day {
+    width: 35px;
+    height: 35px;
+  }
+
+  .DateName {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .Day {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .Inner {
+    gap: 5px;
+  }
+  .MobileCalendar {
+    gap: 10px;
+  }
 }

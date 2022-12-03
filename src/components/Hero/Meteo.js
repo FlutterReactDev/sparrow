@@ -11,7 +11,6 @@ function Meteo() {
   });
   useEffect(() => {
     axios.get("http://meteo.shopping24.su:8080/ml.php").then((response) => {
-      console.log(response);
       const splitData = response.data.split(" ");
       const splitTable = splitData[splitData.length - 1]
         .split("<td></td>")[0]

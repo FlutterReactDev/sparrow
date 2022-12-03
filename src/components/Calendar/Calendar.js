@@ -98,6 +98,67 @@ function Calendar() {
           )}
         </div>
       </div>
+      <div className={styles.MobileCalendar}>
+        <div className={styles.LeftArrow}>
+          {theme === "dark-theme" ? (
+            <img src={ArrowLeftDark} alt="Left" />
+          ) : (
+            <img src={ArrowLeftLight} alt="Left" />
+          )}
+        </div>
+
+        <div className={styles.Inner}>
+          <div className={styles.Row}>
+            <div className={styles.DateName}>ПН</div>
+            <div className={styles.DayRow}>
+              <div className={styles.Day}>31</div>
+            </div>
+          </div>
+          <div className={styles.Row}>
+            <div className={styles.DateName}>ВТ</div>
+            <div className={styles.DayRow}>
+              <div className={styles.Day}>1</div>
+            </div>
+          </div>
+          <div className={styles.Row}>
+            <div className={styles.DateName}>СР</div>
+            <div className={styles.DayRow}>
+              <div className={styles.Day}>2</div>
+            </div>
+          </div>
+          <div className={styles.Row}>
+            <div className={styles.DateName}>ЧТ</div>
+            <div className={styles.DayRow}>
+              <div className={cn(styles.Day, styles.CurrentDay)}>3</div>
+            </div>
+          </div>
+          <div className={styles.Row}>
+            <div className={styles.DateName}>ПТ</div>
+            <div className={styles.DayRow}>
+              <div className={styles.Day}>4</div>
+            </div>
+          </div>
+          <div className={styles.Row}>
+            <div className={styles.DateName}>СБ</div>
+            <div className={styles.DayRow}>
+              <div className={styles.Day}>5</div>
+            </div>
+          </div>
+          <div className={styles.Row}>
+            <div className={styles.DateName}>ВС</div>
+            <div className={styles.DayRow}>
+              <div className={styles.Day}>6</div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.RightArrow}>
+          {theme === "dark-theme" ? (
+            <img src={ArrowRightDark} alt="Left" />
+          ) : (
+            <img src={ArrowRightLight} alt="Left" />
+          )}
+        </div>
+      </div>
     </div>
   );
 }
